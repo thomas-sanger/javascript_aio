@@ -2,6 +2,10 @@
 
 A beginning program for writing JavaScript games.
 
+## Install
+
+N/A
+
 ## Usage
 
 1. Include gamelet.js in an HTML document containing an element with an id of 'ball'.
