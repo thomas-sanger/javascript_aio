@@ -87,4 +87,46 @@
 // let stateName = "colorado";
 // stateName.toUpperCase(); // returns "COLORADO"
 
-// numbers
+// // number functions
+// parseInt(5.343235); // returns 5
+// parseFloat(10.32); // returns 10.32
+
+// // consider this example
+// let tip = "8.50";
+// let total = 40;
+// let tax = 0;
+
+// let orderTotal = tip + tax + total;
+// console.log(orderTotal); // returns 8.50040
+
+// // do this instead
+// let tip = "8.50";
+// let total = 40;
+// let tax = 0;
+
+// let orderTotal = parseFloat(tip) + tax + total;
+// console.log(orderTotal); // returns 48.5
+
+// // how to declare bigInt
+// let kilometersToAndromedaGalaxy = 23651826000000000000n;
+
+// // boolean is true or false
+// // converting to Boolean
+// !!"Javascript is awesome"; // returns true
+// !!"I am the best JavaScript programmer"; // returns true
+// !!0; // returns false
+// !!""; // returns false
+// !!99; // returns true
+// !!null; // returns false
+
+// // to understand why they convert to what they do consider truthy and falsy values. everything below converts to false in JavaScript, also know as falsy values.
+// false;
+// 0;
+// -0;
+// 0n;
+// "";
+// null;
+// undefined;
+// NaN;
+
+// // everything else is true when converted to Boolean, also known as truthy values.
